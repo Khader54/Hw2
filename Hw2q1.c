@@ -4,7 +4,7 @@
 #include <stdbool.h>
 
 #define ARR_MAX_LENGTH 50
-
+////////
 
 int main()
 {

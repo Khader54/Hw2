@@ -21,8 +21,8 @@ int main()
     {
         while (copyNumber != 0)
         {
-            sumOfSquares = (sumOfSquares + ((copyNumber%10) * (copyNumber%10)));
-            copyNumber = (copyNumber/10);
+            sumOfSquares += (pow((copyNumber%10), 2));
+            copyNumber /= 10;
         }
         if(sumOfSquares == 1)
         {
